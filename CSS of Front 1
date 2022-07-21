@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+}
+.main {
+    height: 50%;
+    width: 50%;
+    padding: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url('images/backgr3.jpg');
+    color: rgb(2, 2, 2);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.main h1 {
+    font-size: 50px;
+}
+.main p {
+    font-size: 1.2em;
+}
+.button {
+    font-weight: bold;
+    margin: 10px;
+    font-size: 1.3em;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 2px solid rgb(2, 2, 2);
+    color: rgb(2, 2, 2);
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(245, 245, 245);
+    color: black;
+    transition: 0.9s;
+}
+.work {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url('images/Mesttart\ banner\ people.png');
+}
+.navbar{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #869397;
+    border: 2px solid rgb(2, 2, 2);
+}
+.navbar a {
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 30px;
+    font-size: 1.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    color: #4f5b5f;
+}
